@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Open bioinformatics pipelines and tools from the Hildebrand Lab for amplicon sequencing, shotgun metagenomics and microbial community analysis." />
+    <meta name="theme-color" content="#0b3434" />
+    <meta property="og:title" content="Hildebrand Lab | Software" />
+    <meta property="og:description" content="Open bioinformatics pipelines and tools from the Hildebrand Lab for amplicon sequencing, shotgun metagenomics and microbial community analysis." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>Hildebrand Lab | Software</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body class="detail-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="index.html" aria-label="Hildebrand Lab, home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Hildebrand <em>Lab</em></span></a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-open">Menu</span><span class="menu-close">Close</span></button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="research.html">Research</a> <a href="software.html" aria-current="page">Software</a> <a href="people.html">People</a> <a href="publications.html">Publications</a> <a class="nav-cta" href="join-us.html">Join us</a></nav>
+      </div>
+    </header>
+    <main id="main">
+      <section class="detail-hero" id="top" aria-labelledby="software-page-title">
+        <div class="shell"><a class="archive-back" href="index.html">← Back to the lab homepage</a><p class="eyebrow">Open software</p><h1 id="software-page-title">Methods should be <span>useful beyond one lab.</span></h1><p class="archive-lede">We develop practical, open tools for amplicon and shotgun metagenomics, community analysis and genome-resolved microbiology. Each project is maintained in the open, with source code and documentation available through its repository.</p><div class="detail-actions"><a class="button button-primary" href="https://github.com/hildebra" target="_blank" rel="noreferrer">Browse the group GitHub <span aria-hidden="true">↗</span></a></div></div>
+      </section>
+
+      <section class="detail-section pipelines-section" aria-labelledby="pipelines-title">
+        <div class="shell archive-intro"><p class="section-label">Pipelines</p><div><h2 id="pipelines-title">End-to-end analysis, made practical.</h2><p>These workflows carry data from reads to interpretable results. They bring established methods together with the lab’s quality control, reproducibility and microbial-analysis expertise.</p></div></div>
+        <div class="shell tool-detail-grid pipeline-grid">
+          <article class="tool-detail-card"><p class="card-number">Pipeline 01</p><h2>LotuS3</h2><p>A lightweight, fast and configurable pipeline for 16S, 18S and ITS amplicon sequencing. It brings several established denoising and clustering approaches into one workflow while retaining room for careful configuration.</p><p class="tool-stat"><span data-download-stat="lotus3">817</span> Bioconda downloads</p><a class="text-link" href="https://github.com/hildebra/LotuS3/" target="_blank" rel="noreferrer">Open LotuS3 on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">Pipeline 02</p><h2>MATAFILER4</h2><p>A Linux and HPC-oriented pipeline for raw shotgun metagenomic reads. It supports assembly-dependent workflows alongside assembly-independent taxonomic and functional profiling for complex communities such as soil.</p><p class="tool-stat tool-stat-low"><span data-download-stat="matafiler4">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/MATAFILER4" target="_blank" rel="noreferrer">Open MATAFILER4 on GitHub <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="detail-section" aria-labelledby="tools-title">
+        <div class="shell archive-intro"><p class="section-label">Tools &amp; applications</p><div><h2 id="tools-title">Focused tools for the questions in between.</h2><p>Supporting tools for profiling, taxonomy, genomes, statistical modelling, visualisation and data interpretation. Each card shows the most appropriate public download indicator: cumulative Bioconda package downloads, GitHub release downloads, or a clearly marked unavailable historic count.</p></div></div>
+        <div class="shell tool-detail-grid">
+          <article class="tool-detail-card"><p class="card-number">01</p><h2>Protal</h2><p>A reference-based profiler for bacterial shotgun metagenomes. Protal works with paired-end short reads and a GTDB-based index to identify taxa and distinguish intraspecific variation across samples.</p><p class="tool-stat"><span data-download-stat="protal">1,329</span> Bioconda downloads</p><a class="text-link" href="https://github.com/4less/protal" target="_blank" rel="noreferrer">Open Protal on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">02</p><h2>RTK</h2><p>Fast rarefaction and diversity estimation for microbial community data, designed to make common ecological comparisons more efficient and reproducible.</p><p class="tool-stat"><span data-download-stat="rtk">12,103</span> Bioconda downloads</p><a class="text-link" href="https://github.com/hildebra/Rarefaction" target="_blank" rel="noreferrer">Open RTK on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">03</p><h2>clusterMAGs</h2><p>Tools for working with metagenome-assembled genomes and grouping them into species-level units, helping bring consistency to genome-resolved analyses.</p><p class="tool-stat tool-stat-low"><span data-download-stat="clustermags">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/clusterMAGs" target="_blank" rel="noreferrer">Open clusterMAGs on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">04</p><h2>cvaNMF</h2><p>Cross-validated non-negative matrix factorisation for selecting robust, interpretable patterns in complex biological datasets.</p><p class="tool-stat"><span data-download-stat="cvanmf">612</span> Bioconda downloads</p><a class="text-link" href="https://github.com/apduncan/cvanmf" target="_blank" rel="noreferrer">Open cvaNMF on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">05</p><h2>adhesiomeR</h2><p>An R toolkit for the systematic identification and analysis of bacterial adhesins and host-interaction potential.</p><p class="tool-stat tool-stat-low"><span data-download-stat="adhesiomer">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/ksidorczuk/adhesiomeR" target="_blank" rel="noreferrer">Open adhesiomeR on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">06</p><h2>sdm</h2><p>A fast, flexible collection of utilities for sequence-related tasks and large-scale microbial data processing.</p><p class="tool-stat"><span data-download-stat="sdm">63,096</span> Bioconda downloads</p><a class="text-link" href="https://github.com/hildebra/sdm" target="_blank" rel="noreferrer">Open sdm on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">07</p><h2>LCA</h2><p>Least-common-ancestor evaluation against a taxonomic database, supporting taxonomic classification workflows.</p><p class="tool-stat"><span data-download-stat="lca">20,610</span> Bioconda downloads</p><a class="text-link" href="https://github.com/hildebra/LCA" target="_blank" rel="noreferrer">Open LCA on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">08</p><h2>MSAfix</h2><p>Fast repair of frameshifts and other issues in multiple-sequence alignments, useful in comparative and gene-family analyses.</p><p class="tool-stat tool-stat-low"><span data-download-stat="msafix">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/MSAfix" target="_blank" rel="noreferrer">Open MSAfix on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">09</p><h2>canopy2</h2><p>Canopy clustering for gene catalogues, helping organise large metagenomic gene collections into interpretable groups.</p><p class="tool-stat tool-stat-low"><span data-download-stat="canopy2">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/canopy2" target="_blank" rel="noreferrer">Open canopy2 on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">10</p><h2>BM-TK</h2><p>A toolkit for predicting base modifications from PacBio sequencing data, supporting analysis of microbial epigenetic variation.</p><p class="tool-stat tool-stat-low"><span data-download-stat="bmtk">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/apduncan/bm-tk" target="_blank" rel="noreferrer">Open BM-TK on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">11</p><h2>vcf2fna</h2><p>Builds bacterial consensus contigs and annotated gene sequences from metagenomic VCF calls, depth tracks and reference annotations.</p><p class="tool-stat tool-stat-low"><span data-download-stat="vcf2fna">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/vcf2fna" target="_blank" rel="noreferrer">Open vcf2fna on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">12</p><h2>meta-mage</h2><p>A scalable Nextflow workflow for discovering clade-specific marker genes across GTDB genome collections and creating classifier-marker databases.</p><p class="tool-stat tool-stat-low"><span data-download-stat="metamage">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/4less/meta-mage" target="_blank" rel="noreferrer">Open meta-mage on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">13</p><h2>benchpro</h2><p>Benchmark taxonomic profilers with GTDB-style taxonomy support, helping make method comparisons more informative and reproducible.</p><p class="tool-stat tool-stat-low"><span data-download-stat="benchpro">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/4less/benchpro" target="_blank" rel="noreferrer">Open benchpro on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">14</p><h2>newvu</h2><p>An interactive tree viewer for phylogenies enriched with metadata and summary information across tips.</p><p class="tool-stat tool-stat-low"><span data-download-stat="newvu">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/4less/newvu" target="_blank" rel="noreferrer">Open newvu on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">15</p><h2>Enterosignature calculator</h2><p>Generate enterosignature weights from GTDB abundance tables using the five-signature model; available as a browser app and command-line workflow.</p><p class="tool-stat tool-stat-low"><span data-download-stat="enterosig">0</span> GitHub release downloads</p><span class="member-links"><a class="text-link" href="https://github.com/apduncan/enterosig_sl" target="_blank" rel="noreferrer">Open code on GitHub <span aria-hidden="true">↗</span></a><a class="text-link" href="https://enterosignatures.streamlit.app" target="_blank" rel="noreferrer">Open calculator <span aria-hidden="true">↗</span></a></span></article>
+        </div>
+      </section>
+
+      <section class="detail-section older-software-section" aria-labelledby="older-tools-title">
+        <div class="shell archive-intro"><p class="section-label">Software archive</p><div><h2 id="older-tools-title">Older software versions.</h2><p>Earlier tools that informed the lab’s current workflows. They remain available for reproducibility, reference and legacy analyses; for new projects, use the current tools above where possible.</p></div></div>
+        <div class="shell tool-detail-grid older-tool-grid">
+          <article class="tool-detail-card"><p class="card-number">Archive 01</p><h2>LotuS2</h2><p>The second generation of the LotuS amplicon-sequencing pipeline, retained for compatibility with established analyses and published workflows.</p><p class="tool-stat"><span data-download-stat="lotus2">68,050</span> Bioconda downloads</p><a class="text-link" href="https://github.com/hildebra/lotus2" target="_blank" rel="noreferrer">Open LotuS2 on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">Archive 02</p><h2>LotuS</h2><p>The original Less OTU Scripts pipeline for amplicon sequencing, documented in the foundational 2014 publication.</p><p class="tool-stat tool-stat-unavailable">Historic download count unavailable</p><a class="text-link" href="https://doi.org/10.1186/2049-2618-2-30" target="_blank" rel="noreferrer">Read the LotuS publication <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">Archive 03</p><h2>MATAFILER</h2><p>The earlier metagenomic assembly, genome-reconstruction and taxonomic/functional profiling workflow that preceded MATAFILER4.</p><p class="tool-stat tool-stat-low"><span data-download-stat="matafiler">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/MATAFILER" target="_blank" rel="noreferrer">Open MATAFILER on GitHub <span aria-hidden="true">↗</span></a></article>
+          <article class="tool-detail-card"><p class="card-number">Archive 04</p><h2>MG-TK</h2><p>An earlier end-to-end metagenomic toolkit for processing and analysing metagenomes, preserved as a reference implementation.</p><p class="tool-stat tool-stat-low"><span data-download-stat="mgtk">0</span> GitHub release downloads</p><a class="text-link" href="https://github.com/hildebra/mg-tk" target="_blank" rel="noreferrer">Open MG-TK on GitHub <span aria-hidden="true">↗</span></a></article>
+        </div>
+      </section>
+
+      <section class="detail-cta" aria-labelledby="software-cta-title"><div class="shell detail-cta-layout"><div><p class="section-label">Work openly</p><h2 id="software-cta-title">Questions, improvements and reuse are welcome.</h2></div><div><p>For project-specific support, documentation or collaboration ideas, start with the repository and contact the lab when a conversation would help.</p><a class="button button-primary" href="join-us.html">Work with the lab <span aria-hidden="true">→</span></a></div></div></section>
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <a class="brand" href="index.html" aria-label="Hildebrand Lab, home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Hildebrand <em>Lab</em></span></a>
+        <address>Quadram Institute Bioscience<br />Norwich Research Park<br />Norwich, Norfolk NR4 7UQ, UK</address>
+        <div><a href="mailto:Falk.Hildebrand@quadram.ac.uk">Falk.Hildebrand@quadram.ac.uk</a><br /><a href="tel:+441603255000">+44 (0)1603 255000</a></div>
+        <div class="footer-meta"><a href="https://github.com/hildebra" target="_blank" rel="noreferrer">GitHub ↗</a><span>Photography courtesy of Quadram Institute and Earlham Institute.</span></div>
+      </div>
+    </footer>
+  </body>
+</html>
