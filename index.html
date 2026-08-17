@@ -3,15 +3,85 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="The Hildebrand Lab investigates microbial communities, genomes, and evolution through metagenomics, numerical ecology, and open bioinformatics." />
+    <title>Hildebrand Lab | Microbial Ecology &amp; Metagenomics</title>
+    <meta name="description" content="The Hildebrand Lab in Norwich, UK researches microbial ecology, metagenomics, genome evolution and microbiome communities, and develops open bioinformatics software." />
+    <meta name="author" content="Hildebrand Lab" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="theme-color" content="#0b3434" />
-    <meta property="og:title" content="Hildebrand Lab | Microbial communities, made visible" />
-    <meta property="og:description" content="Research in metagenomics, microbial ecology, evolution, and open bioinformatics." />
+    <link rel="canonical" href="https://hildebra.github.io/Hildebrand-lab/" />
+
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Hildebrand Lab" />
+    <meta property="og:title" content="Hildebrand Lab | Microbial Ecology &amp; Metagenomics" />
+    <meta property="og:description" content="Researching microbial communities, genomes and evolution through metagenomics, numerical ecology, machine learning and open bioinformatics." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="assets/images/og.png" />
+    <meta property="og:url" content="https://hildebra.github.io/Hildebrand-lab/" />
+    <meta property="og:image" content="https://hildebra.github.io/Hildebrand-lab/assets/images/og.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1728" />
+    <meta property="og:image:height" content="910" />
+    <meta property="og:image:alt" content="Hildebrand Lab research in microbial ecology and metagenomics" />
+
     <meta name="twitter:card" content="summary_large_image" />
-    <title>Hildebrand Lab | Microbial communities</title>
+    <meta name="twitter:title" content="Hildebrand Lab | Microbial Ecology &amp; Metagenomics" />
+    <meta name="twitter:description" content="Researching microbial communities, genomes and evolution through metagenomics, numerical ecology, machine learning and open bioinformatics." />
+    <meta name="twitter:image" content="https://hildebra.github.io/Hildebrand-lab/assets/images/og.png" />
+    <meta name="twitter:image:alt" content="Hildebrand Lab research in microbial ecology and metagenomics" />
+
     <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://hildebra.github.io/Hildebrand-lab/#website",
+            "url": "https://hildebra.github.io/Hildebrand-lab/",
+            "name": "Hildebrand Lab",
+            "description": "Research in microbial ecology, metagenomics, genome evolution, microbiome communities and open bioinformatics.",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://hildebra.github.io/Hildebrand-lab/#organization"
+            }
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://hildebra.github.io/Hildebrand-lab/#organization",
+            "name": "Hildebrand Lab",
+            "url": "https://hildebra.github.io/Hildebrand-lab/",
+            "description": "A microbial ecology and bioinformatics research group based at Quadram Institute Bioscience and Earlham Institute in Norwich, UK.",
+            "email": "mailto:Falk.Hildebrand@quadram.ac.uk",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://hildebra.github.io/Hildebrand-lab/assets/images/og.png"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "Norwich Research Park",
+              "addressLocality": "Norwich",
+              "addressRegion": "Norfolk",
+              "postalCode": "NR4 7UQ",
+              "addressCountry": "GB"
+            },
+            "member": {
+              "@type": "Person",
+              "name": "Falk Hildebrand",
+              "jobTitle": "Group Leader",
+              "sameAs": [
+                "https://quadram.ac.uk/people/falk-hildebrand/",
+                "https://www.earlham.ac.uk/profile/falk-hildebrand"
+              ]
+            },
+            "sameAs": [
+              "https://github.com/hildebra",
+              "https://quadram.ac.uk/people/falk-hildebrand/",
+              "https://www.earlham.ac.uk/profile/falk-hildebrand",
+              "https://scholar.google.com/citations?user=VTfzjTgAAAAJ&hl=en"
+            ]
+          }
+        ]
+      }
+    </script>
     <script defer src="script.js"></script>
   </head>
   <body>
@@ -26,13 +96,7 @@
         <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
           <span class="menu-open">Menu</span><span class="menu-close">Close</span>
         </button>
-        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
-          <a href="research.html">Research</a>
-          <a href="software.html">Software</a>
-          <a href="people.html">People</a>
-          <a href="publications.html">Publications</a>
-          <a class="nav-cta" href="join-us.html">Join us</a>
-        </nav>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation"> <a href="research.html">Research</a> <a href="people.html">People</a> <a href="software.html">Software</a> <a href="publications.html">Publications</a> <a class="nav-cta" href="join-us.html">Join us</a></nav>
       </div>
     </header>
 
@@ -117,24 +181,6 @@
         </div>
       </section>
 
-      <section class="software-section section" id="software" aria-labelledby="software-title">
-        <div class="shell software-layout">
-          <div class="software-intro">
-            <p class="section-label">Open by default</p>
-            <h2 id="software-title">Methods should travel.</h2>
-            <p>Our bioinformatic tools are freely available to help others investigate microbial communities with confidence and scale.</p>
-            <a class="button button-dark" href="software.html">Explore all lab tools <span aria-hidden="true">→</span></a>
-          </div>
-          <div class="tool-list">
-            <a class="tool" href="https://github.com/hildebra/LotuS3/" target="_blank" rel="noreferrer"><span class="tool-index">01</span><span><strong>LotuS3</strong><small>Fast, configurable amplicon-sequencing analysis</small></span><b aria-hidden="true">↗</b></a>
-            <a class="tool" href="https://github.com/hildebra/MATAFILER4" target="_blank" rel="noreferrer"><span class="tool-index">02</span><span><strong>MATAFILER4</strong><small>Shotgun metagenomics for Linux and HPC</small></span><b aria-hidden="true">↗</b></a>
-            <a class="tool" href="https://github.com/4less/protal" target="_blank" rel="noreferrer"><span class="tool-index">03</span><span><strong>Protal</strong><small>Reference-based taxonomic and strain profiling</small></span><b aria-hidden="true">↗</b></a>
-            <a class="tool" href="https://github.com/apduncan/cvanmf" target="_blank" rel="noreferrer"><span class="tool-index">04</span><span><strong>cvaNMF</strong><small>Robust rank selection for matrix factorisation</small></span><b aria-hidden="true">↗</b></a>
-            <a class="tool" href="https://github.com/ksidorczuk/adhesiomeR" target="_blank" rel="noreferrer"><span class="tool-index">05</span><span><strong>adhesiomeR</strong><small>Adhesin prediction and host-interaction analysis</small></span><b aria-hidden="true">↗</b></a>
-          </div>
-        </div>
-      </section>
-
       <section class="people-section section" id="people" aria-labelledby="people-title">
         <div class="shell">
           <div class="section-heading people-heading">
@@ -151,6 +197,24 @@
               <p>Falk leads the group across Quadram Institute Bioscience and Earlham Institute. Learn more through the <a href="https://quadram.ac.uk/people/falk-hildebrand/" target="_blank" rel="noreferrer">Quadram profile</a> and <a href="https://www.earlham.ac.uk/profile/falk-hildebrand" target="_blank" rel="noreferrer">Earlham profile</a>.</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="software-section section" id="software" aria-labelledby="software-title">
+        <div class="shell software-layout">
+          <div class="software-intro">
+            <p class="section-label">Open by default</p>
+            <h2 id="software-title">Methods should travel.</h2>
+            <p>Our bioinformatic tools are freely available to help others investigate microbial communities with confidence and scale.</p>
+            <a class="button button-dark" href="software.html">Explore all lab tools <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="tool-list">
+            <a class="tool" href="https://github.com/4less/protal" target="_blank" rel="noreferrer"><span class="tool-index">03</span><span><strong>Protal</strong><small>Reference-based taxonomic and strain profiling</small></span><b aria-hidden="true">↗</b></a>
+            <a class="tool" href="https://github.com/hildebra/LotuS3/" target="_blank" rel="noreferrer"><span class="tool-index">01</span><span><strong>LotuS3</strong><small>Fast, configurable amplicon-sequencing analysis</small></span><b aria-hidden="true">↗</b></a>
+            <a class="tool" href="https://github.com/apduncan/cvanmf" target="_blank" rel="noreferrer"><span class="tool-index">04</span><span><strong>cvaNMF</strong><small>Robust rank selection for matrix factorisation</small></span><b aria-hidden="true">↗</b></a>
+            <a class="tool" href="https://github.com/hildebra/MATAFILER4" target="_blank" rel="noreferrer"><span class="tool-index">02</span><span><strong>MATAFILER4</strong><small>Shotgun metagenomics for Linux and HPC</small></span><b aria-hidden="true">↗</b></a>
+            <a class="tool" href="https://github.com/ksidorczuk/adhesiomeR" target="_blank" rel="noreferrer"><span class="tool-index">05</span><span><strong>adhesiomeR</strong><small>Adhesin prediction and host-interaction analysis</small></span><b aria-hidden="true">↗</b></a>
+        </div>
         </div>
       </section>
 
