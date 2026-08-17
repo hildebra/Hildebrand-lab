@@ -16,9 +16,9 @@ A lightweight, dependency-free static website for the Hildebrand Lab. It is desi
 
 Update the People overview in `index.html` and maintain current/former member roles, biographies and portraits in `people.html`. Add or revise detailed publication cards in `publications.html`; each card should link to the publication record and use an original explanatory visual rather than a copied paper figure. Before publishing, review the **Join us**, **People**, and publication sections so they accurately reflect current opportunities, lab members and research output.
 
-## Refresh tool download totals
+## Refresh tool statistics
 
-Where a public download total has reached five or more, the software page displays the best available indicator. The updater refreshes cumulative Bioconda totals where a package exists and GitHub release-asset downloads otherwise; it automatically hides lower totals. Run `python3 scripts/update_tool_downloads.py` before publishing. The original LotuS predates these public counters, so its historic count is explicitly marked unavailable rather than estimated.
+The software page displays source-specific download totals and GitHub stars. The updater refreshes cumulative Bioconda totals, RTK’s exact CRAN Logs grand total, GitHub release-asset downloads, repository star counts, and canopy2's tagged-version count; it automatically hides download totals below five and re-sorts current tools by downloads. GitHub does not publish download counts for automatic tag archives, so canopy2's version count is kept separate from download statistics. Set `GITHUB_TOKEN` when available to avoid GitHub’s anonymous API rate limit, then run `python3 scripts/update_tool_downloads.py` before publishing. The original LotuS predates these public counters, so its historic count is explicitly marked unavailable rather than estimated.
 
 ## Publish with GitHub Pages
 
