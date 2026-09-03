@@ -13,6 +13,7 @@ A lightweight, dependency-free static website for the Hildebrand Lab. It is desi
 - Design and responsive layout: `styles.css`
 - Mobile navigation behaviour: `script.js`
 - Local images: `assets/images/`
+- Scientific claims and source record: `SCIENTIFIC_AUDIT.md`
 
 Update the People overview in `index.html` and maintain current/former member roles, biographies and portraits in `people.html`. Add or revise detailed publication cards in `publications.html`; each card should link to the publication record and use an original explanatory visual rather than a copied paper figure. Before publishing, review the **Join us**, **People**, and publication sections so they accurately reflect current opportunities, lab members and research output.
 
@@ -32,4 +33,4 @@ For a custom domain, add the domain in **Settings → Pages**, then update its D
 
 ## Image credits
 
-The images in `assets/images/` were retained from the original Hildebrand Lab website. The site footer credits Quadram Institute and Earlham Institute as the original photography providers. Confirm continuing permission to reuse these images before public launch.
+Portrait and research photography retained from the original Hildebrand Lab website is credited in the site footer to Quadram Institute and Earlham Institute. Organisation, software and funder marks remain the property of their respective owners. Confirm continuing permission to reuse all supplied assets before public launch.
